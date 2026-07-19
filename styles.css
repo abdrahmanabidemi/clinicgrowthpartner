@@ -868,6 +868,34 @@ p {
   font-weight: 500;
 }
 
+.challenge-link {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(155, 124, 96, 0.85);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+  padding-top: 16px;
+  text-align: left;
+  transition: color var(--transition-smooth);
+}
+
+.challenge-link .arrow {
+  display: inline-block;
+  transition: transform var(--transition-smooth);
+  margin-left: 4px;
+}
+
+.challenge-card:hover .challenge-link,
+.challenge-link:hover {
+  color: var(--color-bronze);
+}
+
+.challenge-card:hover .challenge-link .arrow {
+  transform: translateX(4px);
+}
+
 /* Refined Why Choose Us Cards */
 .trust-card {
   background-color: var(--color-bg);
