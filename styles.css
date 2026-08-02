@@ -993,6 +993,18 @@ p {
   border-bottom: 1px solid var(--color-border);
 }
 
+/* Selected Sections background colors for rhythm distinction */
+#hero,
+#solutions,
+#consultation {
+  background-color: #FCFAF7;
+}
+
+/* Typography Emphasis accent class */
+.text-accent {
+  color: var(--color-bronze);
+}
+
 /* Section Reveal Micro-interactions */
 .section-reveal {
   opacity: 0;
